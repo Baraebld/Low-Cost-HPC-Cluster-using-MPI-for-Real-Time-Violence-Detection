@@ -4,6 +4,7 @@ This directory contains original figures, interface screenshots, and experimenta
 
 | File | Description |
 |---|---|
+| [`images/physical-cluster.jpg`](images/physical-cluster.jpg) | High-resolution photograph of the actual physical HPC cluster hardware setup. |
 | [`cluster_setup_photo.jpg`](cluster_setup_photo.jpg) | Physical photograph of the 4-node Raspberry Pi cluster and Ethernet switch. |
 | [`cluster_hardware_stack.jpg`](cluster_hardware_stack.jpg) | Close-up photograph of the stacked Raspberry Pi 4 compute nodes. |
 | [`streamlit_app_interface.png`](streamlit_app_interface.png) | Screenshot of the Streamlit demonstration web interface during video inference. |
