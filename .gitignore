@@ -1,0 +1,68 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ compiled binaries and objects
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+mpi/hello_mpi
+mpi/mpi_trap_pi
+mpi/matmul_benchmark
+mpi/violence_mpi_master
+
+# Model weights and checkpoints (tracked via download script / Hugging Face due to >100MB size limit)
+*.pth
+*.pt
+*.bin
+*.onnx
+!models/README.md
+
+# Datasets, raw videos, and cache directories
+data/
+cache/
+dataset/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Temporary files & scratch
+*.tmp
+*.log
+pdf_text.txt
+scratch/
